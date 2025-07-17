@@ -1,5 +1,5 @@
 const crypto = require("crypto");
-const algorithm = 'aes-256-cbc';  // Make sure the algorithm name matches exactly
+const algorithm = 'aes-256-cbc';  
 
 function encrypt(text) {
   const cipher = crypto.createCipheriv(algorithm, key, iv);
